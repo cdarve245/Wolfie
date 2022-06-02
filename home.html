@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      h1 {
+        font-weight: bold;
+        font-size: 100px;
+        background-color: grey;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+        padding: 200px;
+      }
+      h2 {
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 300%;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      }
+      .column {
+        column-count: 2;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 4px;
+        align-items: center;
+        justify-items: center;
+      }
+      .label {
+        font-size: 4vw;
+        margin: 15px;
+        float: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      }
+      em {
+        color: lightsteelblue;
+        font-style: normal;
+      }
+      .pictures_of_wolfie {
+        width: 100%;
+        height: 65%;
+        border-radius: 30px;
+        object-fit: cover;
+      }
+      ol {
+        margin-left: 30px;
+        font-size: 4vw;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .end_photo {
+        width: 80%;
+        height: 65%;
+        border-radius: 30px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50%;
+      }
+      a {
+        margin-left: 30px;
+        font-size: 4vw;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><center>The Life of Wolfie</center></h1>
+    <h2>Hi! I'm Wolfie.</h2>
+    <div class="column">
+      <img
+        class="pictures_of_wolfie"
+        src="images/DrawnWolfie.jpg"
+        alt="An image of a drawing of a wolf"
+      />
+      <p class="label">This is a <em>drawing</em> of me</p>
+
+      <img
+        class="pictures_of_wolfie"
+        src="images/RealLifeWolfie.jpg"
+        alt="An image of a picture of a wolf"
+      />
+      <p class="label">This is a <em>picture</em> of me</p>
+    </div>
+
+    <ol class="regular_text">
+      <li>I like hunting birds</li>
+      <li>I like rolling around in the ground</li>
+      <li>I like hiking through the forest</li>
+    </ol>
+
+    <img
+      class="end_photo"
+      src="images/RollingAround.JPG"
+      alt="An image of a cute wolf"
+    />
+  </body>
+</html>
